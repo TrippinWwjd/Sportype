@@ -1,0 +1,17 @@
+@RunWith(AndroidJUnit4::class)
+class AwesomeViewModelTest {
+
+    @Test
+    fun testHandler() {
+
+        getInstrumentation().runOnMainSync(Runnable {
+            val context = InstrumentationRegistry.getInstrumentation().targetContext
+
+          // Here you can call methods which have Handler
+
+       
+        })
+    }
+
+
+}
